@@ -5,10 +5,10 @@
 PATH=/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 
-sudo apt-get install apache2
-sudo apt-get install libapache2-mod-php5 php5
-sudo apt-get install MySQL-server-5.0  mysql-common mysql-admin
-sudo apt-get install php5-mysql
+sudo apt-get install -y apache2
+sudo apt-get install -y libapache2-mod-php5 php5
+sudo apt-get install -y MySQL-server-5.0  mysql-common mysql-admin
+sudo apt-get install -y php5-mysql
 wget -c http://wordpress.org/latest.tar.gz
 tar xvzf latest.tar.gz
 sudo cp -rf  wordpress /var/www
